@@ -1,139 +1,132 @@
 
+/* === Modern Neon Theme === */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 body {
-    background-color: #000;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    padding-top: 50px;
-   
+  background-color: #0D0D0D;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 50px;
 }
 
 .container {
-    width: 100%;
-    max-width: 500px;
-    padding: 30px;
-    background-color: #1a1a1a;
-    border-radius: 12px;
-    box-shadow: 0 8px 20px rgba(255, 255, 255, 0.1);
-    margin-top: 100px;
+  width: 100%;
+  max-width: 500px;
+  padding: 30px;
+  background-color: #1C1C1C;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
+  margin-top: 100px;
 }
 
-
 .container h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #22e33f;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4ADE80;
 }
 
 .input-container {
-    display: flex;
-    gap: 10px;
-    margin-bottom: 20px;
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
 }
 
-
 #todo-input {
-    flex: 1;
-    padding: 12px 15px;
-    border: 2px solid #444;
-    border-radius: 8px;
-    font-size: 16px;
-    background-color: #111;
-    color: #f5f5f5;
-    transition: border-color 0.3s, background-color 0.3s;
+  flex: 1;
+  padding: 12px 15px;
+  border: 2px solid #333;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #111;
+  color: #F5F5F5;
+  transition: border-color 0.3s;
 }
 
 #todo-input:focus {
-    border-color:#B379E7;
-    outline: none;
+  border-color: #C084FC;
+  outline: none;
 }
 
-
 #add-task-btn {
-    padding: 12px 20px;
-    border: none;
-    background-color: #22e33f;
-    color: black;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  padding: 12px 20px;
+  border: none;
+  background-color: #4ADE80;
+  color: black;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 #add-task-btn:hover {
-    background-color:#15b42d;
+  background-color: #22C55E;
 }
 
 #todo-list {
-    list-style: none;
-    max-height: 300px;
-    overflow-y: auto;
-    padding-right: 5px;
+  list-style: none;
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 5px;
 }
 
-
 #todo-list li {
-    background-color: #111;
-    padding: 12px 15px;
-    margin-bottom: 10px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    box-shadow: 0 4px 8px rgba(190, 181, 181, 0.043);
-    color: #f5f5f5;
-    transition: all 0.2s ease-in-out;
+  background-color: #111;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.04);
+  color: #F5F5F5;
+  transition: all 0.2s;
 }
 
 #todo-list li:hover {
-    transform: translateY(-1px);
-    background-color: #1a1a1a;
+  transform: translateY(-1px);
+  background-color: #1C1C1C;
 }
 
-
 .delete-btn {
-    background-color: #ff4d4d;
-    border: none;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 6px;
-    cursor: pointer;
-    font-size: 14px;
-    transition: background-color 0.3s;
+  background-color: #F87171;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
 }
 
 .delete-btn:hover {
-    background-color: #e60000;
-    
+  background-color: #DC2626;
 }
 
-
 #todo-list::-webkit-scrollbar {
-    width: 6px;
+  width: 6px;
 }
 
 #todo-list::-webkit-scrollbar-thumb {
-    background-color: #B379E7;
-    border-radius: 10px;
+  background-color: #C084FC;
+  border-radius: 10px;
 }
 
 #todo-list::-webkit-scrollbar-track {
-    background-color: #000;
+  background-color: #0D0D0D;
 }
-
 
 .completed {
-    text-decoration: line-through; 
-    opacity: 0.6;
-    transition: opacity 0.3s, text-decoration 0.3s;
+  text-decoration: line-through;
+  opacity: 0.6;
+  transition: opacity 0.3s, text-decoration 0.3s;
 }
+
 
 
