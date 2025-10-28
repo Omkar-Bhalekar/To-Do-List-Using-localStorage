@@ -1,5 +1,4 @@
-
-/* === Modern Neon Theme === */
+/* === Cyber Pastel Theme === */
 * {
   margin: 0;
   padding: 0;
@@ -20,16 +19,16 @@ body {
   width: 100%;
   max-width: 500px;
   padding: 30px;
-  background-color: #1C1C1C;
+  background-color: #1A1A1A;
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.08);
+  box-shadow: 0 8px 20px rgba(255, 255, 255, 0.07);
   margin-top: 100px;
 }
 
 .container h1 {
   text-align: center;
   margin-bottom: 20px;
-  color: #4ADE80;
+  color: #93E9BE;
 }
 
 .input-container {
@@ -45,19 +44,19 @@ body {
   border-radius: 8px;
   font-size: 16px;
   background-color: #111;
-  color: #F5F5F5;
+  color: #FAFAFA;
   transition: border-color 0.3s;
 }
 
 #todo-input:focus {
-  border-color: #C084FC;
+  border-color: #F9A8D4;
   outline: none;
 }
 
 #add-task-btn {
   padding: 12px 20px;
   border: none;
-  background-color: #4ADE80;
+  background-color: #93E9BE;
   color: black;
   border-radius: 8px;
   font-size: 16px;
@@ -66,7 +65,7 @@ body {
 }
 
 #add-task-btn:hover {
-  background-color: #22C55E;
+  background-color: #6ED4A5;
 }
 
 #todo-list {
@@ -84,18 +83,18 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.04);
-  color: #F5F5F5;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.05);
+  color: #FAFAFA;
   transition: all 0.2s;
 }
 
 #todo-list li:hover {
   transform: translateY(-1px);
-  background-color: #1C1C1C;
+  background-color: #1A1A1A;
 }
 
 .delete-btn {
-  background-color: #F87171;
+  background-color: #FB7185;
   border: none;
   color: white;
   padding: 5px 10px;
@@ -106,7 +105,7 @@ body {
 }
 
 .delete-btn:hover {
-  background-color: #DC2626;
+  background-color: #E11D48;
 }
 
 #todo-list::-webkit-scrollbar {
@@ -114,7 +113,7 @@ body {
 }
 
 #todo-list::-webkit-scrollbar-thumb {
-  background-color: #C084FC;
+  background-color: #F9A8D4;
   border-radius: 10px;
 }
 
@@ -127,6 +126,3 @@ body {
   opacity: 0.6;
   transition: opacity 0.3s, text-decoration 0.3s;
 }
-
-
-
