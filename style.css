@@ -32,7 +32,7 @@ body {
 .container h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #22e33f;
+    color: cornflowerblue;
 }
 
 .input-container {
@@ -53,7 +53,7 @@ body {
 }
 
 #todo-input:focus {
-    border-color:#22e33f;
+    border-color:cornflowerblue;
     outline: none;
 }
 
@@ -61,7 +61,7 @@ body {
 #add-task-btn {
     padding: 12px 20px;
     border: none;
-    background-color: #22e33f;
+    background-color: cornflowerblue;
     color: black;
     border-radius: 8px;
     font-size: 16px;
@@ -70,7 +70,7 @@ body {
 }
 
 #add-task-btn:hover {
-    background-color:#15b42d;
+    background-color:rgb(93, 135, 212);
 }
 
 
